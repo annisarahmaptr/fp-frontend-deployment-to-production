@@ -25,7 +25,7 @@ const Photos = () => {
         setPhotos(json)
         setLoading(false)
       })
-  }, [sort, submited]);
+  }, [sort, submited, search]);
 
   useEffect(() => {
     setLoading(true);
